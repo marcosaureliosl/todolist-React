@@ -133,6 +133,7 @@ select {
     padding: 5px;
     max-width: 100%;
     margin: auto;
+    width: 100%;
   }
 }
 
