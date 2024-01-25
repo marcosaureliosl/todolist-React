@@ -130,8 +130,9 @@ select {
 @media screen and (max-width: 768px) {
   .app {
     padding: 5px;
-    width: 100%;
+    max-width: 100%;
     margin: auto;
+    width: 100%; 
   }
 
   .filter-options {
