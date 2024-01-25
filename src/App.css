@@ -1,0 +1,202 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  padding: 30px;
+  color: #333;
+  background-image: url('./img/fundo02-jpg.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.app {
+  max-width: 50%;
+  margin: 30px auto;
+  background: linear-gradient(to right, #9ab65a, #6ea2ac); 
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 18px;
+  color: #1844aa;
+}
+
+p {
+  margin: 8px 0;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #1844aa;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 0.3s;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #3b5998;
+}
+
+.download-pdf-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.download-pdf-button:hover {
+  background-color: #2b772e;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #407175;
+}
+
+.todo {
+  background-color: #ecf0f1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.complete {
+  background-color: #0f9e4b;
+}
+
+.remove {
+  background-color: #b82b1b;
+}
+
+.todo-form {
+  padding-bottom: 1.8rem;
+}
+
+input,
+select {
+  padding: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.filter,
+.search {
+  border-bottom: 2px solid #407175;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.filter-options div {
+  flex: 1 1 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .app {
+    padding: 15px;
+  }
+
+  .filter-options {
+    gap: 1rem;
+  }
+
+  .todo-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+
+  }
+
+  .download-pdf-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f9e4b;
+    color: #fff;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+  }
+
+  .remove {
+    max-width: 100px;
+    margin: 0 auto;
+  }
+
+  .filter-options div {
+    flex: inherit;
+  }
+
+  .form-button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search {
+    text-align: center;
+    /* Centraliza o texto */
+  }
+
+  .search input,
+  input,
+  select {
+    width: 100%;
+    padding: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    text-align: center;
+    
+  }
+}
