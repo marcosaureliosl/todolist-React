@@ -10,7 +10,7 @@ body {
 }
 
 .app {
-  width: 600px;
+  width: 50%;
   margin: 30px auto 30px;
   background: linear-gradient(to right, #9ab65a, #6ea2ac); 
   padding: 25px;
@@ -129,8 +129,9 @@ select {
 
 @media screen and (max-width: 768px) {
   .app {
-    padding: 15px;
-    max-width: 100%;
+    padding: 5px;
+    width: 100%;
+    margin: auto;
   }
 
   .filter-options {
