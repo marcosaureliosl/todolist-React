@@ -129,6 +129,7 @@ select {
 
 @media screen and (max-width: 768px) {
   .app {
+    display: inline-block;
     padding: 5px;
     max-width: 100%;
     margin: auto;
