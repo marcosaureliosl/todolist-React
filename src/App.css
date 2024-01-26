@@ -134,18 +134,13 @@ select {
     width: 100% !important;
   }
 
-
-  .filter-options {
-    gap: 1rem;
-  }
-
-  .todo-form {
+  /* .todo-form {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
-  }
+  } */
 
   .download-pdf-button {
     width: 100%;
@@ -162,16 +157,16 @@ select {
     transition: background-color 0.3s ease-in-out;
   }
 
-  button {
+  /* button {
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
-  }
+  } */
 
-  .remove {
+  /* .remove {
     max-width: 100px;
     margin: 0 auto;
-  }
+  } */
 
   .filter-options div {
     flex: inherit;
@@ -184,9 +179,9 @@ select {
     justify-content: center;
   }
 
-  .search {
+  /* .search {
     text-align: center;
-  }
+  } */
 
   .search input,
   input,
