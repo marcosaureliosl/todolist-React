@@ -10,7 +10,7 @@ body {
 }
 
 .app {
-  max-width: 500px;
+  width: 500px;
   margin: 30px auto 30px;
   background: linear-gradient(to right, #9ab65a, #6ea2ac);
   padding: 25px;
@@ -127,20 +127,20 @@ select {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 680px) {
   .app {
     padding: 5px;
     margin: auto;
     width: 100% !important;
   }
 
-  /* .todo-form {
+  .todo-form {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
-  } */
+  }
 
   .download-pdf-button {
     width: 100%;
@@ -157,16 +157,16 @@ select {
     transition: background-color 0.3s ease-in-out;
   }
 
-  /* button {
+  button {
     display: flex;
     flex-wrap: wrap;
     justify-items: center;
-  } */
+  }
 
-  /* .remove {
+  .remove {
     max-width: 100px;
     margin: 0 auto;
-  } */
+  }
 
   .filter-options div {
     flex: inherit;
@@ -179,9 +179,9 @@ select {
     justify-content: center;
   }
 
-  /* .search {
+  .search {
     text-align: center;
-  } */
+  }
 
   .search input,
   input,
