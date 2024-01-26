@@ -133,7 +133,7 @@ select {
     margin: auto;
     width: 100% !important;
   }
-}
+
 
   .filter-options {
     gap: 1rem;
@@ -200,3 +200,4 @@ select {
     text-align: center;
   }
 
+}
