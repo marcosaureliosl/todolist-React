@@ -132,6 +132,7 @@ select {
     padding: 5px;
     margin: auto;
     width: 100%;
+    max-width: 100%;
   }
 
   .todo-form {
