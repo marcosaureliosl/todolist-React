@@ -10,7 +10,7 @@ body {
 }
 
 .app {
-  width: 600px;
+  width: 500px;
   margin: 30px auto 30px;
   background: linear-gradient(to right, #9ab65a, #6ea2ac);
   padding: 25px;
@@ -131,7 +131,7 @@ select {
   .app {
     padding: 5px;
     margin: auto;
-    width: 100% !important;
+    width: 100%;
   }
 
   .todo-form {
